@@ -1,0 +1,89 @@
+1.
+Question 1
+What is a computer program?
+
+step-by-step recipe
+
+2.
+Question 2
+What’s automation?
+
+the process of replacing
+
+3.
+Question 3
+Which of the following tasks are good candidates for automation? Check all that apply.
+
+creating a report of how 
+
+Setting the home directory
+
+populating your company
+
+4.
+Question 4
+What are some characteristics of the Python programming language? Check all that apply.
+
+python programs are easy to write
+
+the python interperter 
+
+we can practice
+
+5.
+Question 5
+How does Python compare to other programming languages?
+
+Each Programming language
+
+6.
+Question 6
+Write a Python script that outputs "Automating with Python is fun!" to the screen.
+
+print('Automating with Python is fun!')
+
+7.
+Question 7
+Fill in the blanks so that the code prints "Yellow is the color of sunshine".
+
+color = 'Yellow'
+thing = 'sunshine'
+print(color + " is the color of " + thing)
+
+
+8.
+Question 8
+Keeping in mind there are 86400 seconds per day, write a program that calculates how many seconds there are in a week, if a week is 7 days. Print the result on the screen.
+
+Note: Your result should be in the format of just a number, not a sentence.
+
+
+print(86400 * 7)
+
+
+9.
+Question 9
+Use Python to calculate how many different passwords can be formed with 6 lower case English letters. For a 1 letter password, there would be 26 possibilities. For a 2 letter password, each letter is independent of the other, so there would be 26 times 26 possibilities. Using this information, print the amount of possible passwords that can be formed with 6 letters.
+
+i = 1
+result = 0
+while i < 7:
+    result = result + (6**i)
+    i += 1
+print(result)
+
+
+
+
+10.
+Question 10
+Most hard drives are divided into sectors of 512 bytes each. Our disk has a size of 16 GB. Fill in the blank to calculate how many sectors the disk has.
+
+Note: Your result should be in the format of just a number, not a sentence.
+
+
+disk_size = 16*1024*1024*1024
+sector_size = 512
+sector_amount = disk_size/sector_size
+
+print(sector_amount)
